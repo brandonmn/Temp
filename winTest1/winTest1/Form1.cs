@@ -38,5 +38,10 @@ namespace winTest1
             newA.Show(); 
       
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+        }
     }
 }
