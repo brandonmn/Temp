@@ -19,9 +19,9 @@ namespace winTest1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Linas newL = new Linas();
+            FormC newC = new FormC();
             this.Hide();
-            newL.Show();
+            newC.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)

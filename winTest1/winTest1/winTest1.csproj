@@ -57,16 +57,22 @@
     <Compile Include="FormB.Designer.cs">
       <DependentUpon>FormB.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormC.Designer.cs">
+      <DependentUpon>FormC.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormA.resx">
-      <DependentUpon>FormA.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormB.resx">
       <DependentUpon>FormB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormC.resx">
+      <DependentUpon>FormC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
