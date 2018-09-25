@@ -19,7 +19,9 @@ namespace winTest1
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            Linas newL = new Linas();
+            this.Hide();
+            newL.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -31,7 +33,10 @@ namespace winTest1
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            FormA newA = new FormA();
+            this.Hide();
+            newA.Show(); 
+      
         }
     }
 }
